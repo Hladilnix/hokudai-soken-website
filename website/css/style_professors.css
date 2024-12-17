@@ -164,12 +164,6 @@
     justify-content: center;
 }
 
-.image img{
-    max-width: 200px;
-    max-height: 500px;
-    margin: 10px 100px 10px 0;
-}
-
 .text{
     margin: 10px 0 10px 100px;
 }
@@ -205,12 +199,105 @@
     text-align: center;
 }
 
-
-
-.career td{
-    padding: 10px;
+.side-info{
+  padding: 100px;
+  width: 20%;
 }
 
-.career td:nth-child(1){
-    width: 250px;
+.main-info{
+  padding: 100px;
+}
+
+.name th{
+  font-size: 30px;
+  text-align: left;
+}
+
+.name td{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.image{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.image img{
+    max-width: 300px;
+    max-height: 700px;
+    margin: 10px 100px 10px 0;
+}
+
+.mail th{
+  text-align: left;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.mail td{
+  font-size: 17px;
+}
+
+.field th{
+  text-align: left;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.field td{
+  font-size: 17px;
+}
+
+.field td{
+  padding-left: 15px;
+}
+
+.hep h2{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.hep p{
+  font-style: oblique;
+  font-size: 15px;
+}
+
+.text-main h2{
+  font-size: 30px;
+  margin: auto;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-main p{
+    font-size: 20px;
+}
+
+.text-main li{
+  font-size: 20px;
+}
+
+.student-list table{
+  margin: auto;
+  width: 40%;
+}
+
+.student-list h2{
+  margin: auto;
+  width: 30%;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.student-list td{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
